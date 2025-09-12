@@ -13,7 +13,7 @@ h1{
       padding: 20px 40px;
       margin-top: 50px;
       margin-bottom: 50px;
-      box-shadow: 0 8px 20px rgba(0,0,0,0.4);  
+      box-shadow: black;  
       transition: transform 0.3s, box-shadow 0.3s;
 
 }
@@ -28,7 +28,7 @@ nav{
       padding: 20px 40px;
       margin-top: 50px;
       margin-bottom: 50px;
-      box-shadow: 0 8px 20px rgba(0,0,0,0.4);  
+      box-shadow: black;  
       transition: transform 0.3s, box-shadow 0.3s;
 }
 .secondary-page{
@@ -42,7 +42,7 @@ nav{
       padding: 20px 40px;
       margin-top: 50px;
       margin-bottom: 50px;
-      box-shadow: 0 8px 20px rgba(0,0,0,0.4);  
+      box-shadow: black;  
       transition: transform 0.3s, box-shadow 0.3s;
 
 }
@@ -57,7 +57,7 @@ nav{
       padding: 20px 40px;
       margin-top: 50px;
       margin-bottom: 50px;
-      box-shadow: 0 8px 20px rgba(0,0,0,0.4);  
+      box-shadow: black;  
       transition: transform 0.3s, box-shadow 0.3s;
 }
 .fourth-page{
@@ -71,7 +71,7 @@ nav{
       padding: 20px 40px;
       margin-top: 50px;
       margin-bottom: 50px;
-      box-shadow: 0 8px 20px rgba(0,0,0,0.4);  
+      box-shadow: black;  
       transition: transform 0.3s, box-shadow 0.3s;
 }
 .fifth-page{
@@ -85,7 +85,7 @@ nav{
       padding: 20px 40px;
       margin-top: 50px;
       margin-bottom: 50px;
-      box-shadow: 0 8px 20px rgba(0,0,0,0.4);  
+      box-shadow: black;  
       transition: transform 0.3s, box-shadow 0.3s;
 }
 .row {
@@ -159,19 +159,19 @@ nav{
   width: 45%;                  
   height: auto;
   border-radius: 15px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  box-shadow: black;
 }
 .info-box {
   width: 50%;
   background-color: #f9f9f9;
   padding: 20px;
   border-radius: 15px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  box-shadow: black;
 }
 .info-box h2 {
   margin-top: 0;
   font-size: 1.8rem;
-  color: #333;
+  color: black;
 }
 
 .info-box ul {
