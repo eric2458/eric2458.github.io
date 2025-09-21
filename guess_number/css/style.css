@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url("../img/1.jpg.webp");
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.655);
+    padding: 20px;
+    border-bottom: 3px solid white;
+}
+
+header h1{
+    margin: 0;
+    font-size: 2.5em;
+}
+header h2{
+    margin: 5px 0 0;
+    font-size: 1.2em;
+    font-weight: normal;
+}
+#main{
+    background-color: rgba(255, 255, 255, 0.655);
+    color: black;
+    width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px;
+}
+
+#feedback{
+    font-weight: bold;
+    margin: 15px 0;
+    font-size: 1.2em;
+}
+
+#scoreboard{
+    margin-top: 20px;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: black;
+}
+
+button{
+    margin: 10px;
+    padding: 8px 16px;
+    font-size: 1em;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#guessBtn{
+    background-color: green;
+    color: white;
+}
+
+#guessBtn:hover {
+    background-color: darkgreen;
+}
+
+#resetBtn {
+    background-color: red;
+    color: white;
+}
+
+#resetBtn:hover {
+    background-color: darkred;
+}
