@@ -75,8 +75,6 @@ function gameOver(){
     let resetBtn = document.querySelector("#resetBtn");
     guessBtn.style.display = "none"; //hides Guess button
     resetBtn.style.display = "inline"; //displays Reset button
-    //playerGuess.disabled = true;
-
     updateScoreboard();
 }
 function updateScoreboard() {
