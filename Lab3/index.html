@@ -3,43 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lab 3: JS Quiz
-    </title>
-    <link rel="Stylesheet" href="CSS/StyleSheet.css">
+    <title>Lab 3: Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </head>
 <body>
-    <h1>
-        CSS Quiz
-    </h1>
-     <script src="https://cdn.jsdelivr.net/npm/underscore@1.13.7/underscore-umd-min.js"></script>
-    <div>1. What CSS property changes the text color </div>
-    <label>
-        <input type="radio" name="q1" value="Text-Color">Text-Color
-    </label>
-    <label>
-        <input type="radio" name="q1" value="Font-Color">Font-Color
-    </label>
-    <label>
-        <input type="radio" name="q1" value="color">color
-    </label>
-    <br><br>
-    <div>2. What CSS property changes the text color </div>
-    <label>
-        <input type="checkbox" id="q2a" value="Text-Color">Text-Color
-    </label>
-    <label>
-        <input type="checkbox" id="q2b" value="Font-Color">Font-Color
-    </label>
-    <label>
-        <input type="checkbox" id="q2c" value="color">color
-    </label>
-    <br><br>
-    <div>3. What CSS property changes the text color?</div>
-    <div id="q3Options"> </div>
+    <h1>Lab 3: Football Quiz</h1>
 
-    <br></br>
-    <button>Submit Quiz! </button>
+    <div class="qbox">
+        1. How many points is a touchdown? <br>
+        <label>
+            <input id="numInput" type="number" min="0">
+        </label>
+    </div>
+    <br>
+    <div class="qbox">
+                2. Who had the number 1 pick in this year's draft? <br>
+        <label>
+            <select id="answer2">
+                <option value="Bears">Bears</option>
+                <option value="Titans">Titans</option>
+                <option value="Jaguars">Jaguars</option>
+                <option value="Dodgers">Dodgers</option>
+            </select>
+        </label>
+    </div>
+    <br>
+    <div class="qbox">
+        3. Who won SuperBolw LVIII (last year)<br>
+        <div id="q3Options">
+        </div>
+    </div>
+    <br>
+    <div class="qbox">
+        4. What does NFL stand for? <br>
+        <input id="textInput" type="text" placeholder="Answer here">
+    </div>
+    <br>
+   
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
 
-    <script src="js/script.js"></script>
+    <script src="script.js"></script>
+    <div class="qbox">
+        5. Who won the 2025 Heisman Trophy?
+    </div>
+    <br>
+     <button id="submitBtn">Submit Quiz</button>
 </body>
 </html>
