@@ -1,0 +1,103 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: cadetblue;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: black;
+  margin-bottom: 20px;
+}
+
+fieldset {
+  background: white;
+  border: 2px solid wheat;
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 500px;
+  margin: 0 auto;
+  box-shadow: 0 2px 8px black;
+}
+
+legend {
+  font-weight: bold;
+  color: gray;
+  padding: 0 8px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+select {
+  width: 95%;
+  padding: 8px;
+  margin: 5px 0 15px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: block;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+select:focus {
+  border-color: blue;
+  outline: none;
+  box-shadow: 0 0 4px beige;
+}
+
+input[type="submit"] {
+  background-color: beige;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: blue;
+}
+
+#invalid {
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+#suggested {
+  font-style: italic;
+  color: #666;
+  margin-left: 5px;
+}
+
+#zipMsg {
+  margin-left: 5px;
+  font-weight: bold;
+}
+
+#city, #lat, #lon {
+  font-weight: bold;
+  color: black;
+}
+
+br {
+  line-height: 1.5;
+}
+
+fieldset:hover {
+  border-color: blue;
+}
+
+select {
+  background-color: wheat;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.9em;
+  color: gray;
+  margin-top: 20px;
+}
